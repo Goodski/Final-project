@@ -1,3 +1,8 @@
+/*GOOGLE FONT IMPORTS*/
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+/*END GOOGLE FONTS*/
+
 /*UNIVERSALS*/html, body{
     height: 100%;
     width: 100%;
@@ -14,6 +19,9 @@ a{
  a:visited{
     color: #000;
 }
+h1{
+    margin:0;
+}
 
 /*END UNIVERSALS*/
 
@@ -26,7 +34,10 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: solid 
+    border-bottom: solid;
+    z-index: 10;
+    
+    
 }
 li{
     display:inline;
@@ -35,22 +46,170 @@ li{
     float: left;
    margin-bottom: 0;
     left:2px;
-    
+    margin-top:-20px;
 }
 
 #nav-links{
     list-style-type: none;
     float:right;
-    margin-top: 85px;
-    font-size: 40px;
+    margin-top: 90px;
+    margin-right: 15%;
+    font-size: 30px;
     margin-bottom: 0;
+    color: #fff;
    
 }
 #nav-links li{
     margin:0 15px;
     background-color: #7b9ccf;
     border-radius:15% 15% 0 0;
+    font-family: 'Fjalla One', sans-serif;
+    padding:0 5px;
        
         
     }
-/*END HEADER*//*HEADER*/
+#nav-links li a{
+    color:#fff;
+}
+/*END HEADER*/
+
+/* HERO*/
+.hero {
+    background-image: url("../img/hero-img-4.png");
+    height:357px;
+    margin-top:170px;
+    background-size:cover;
+}
+/*#hero-header{
+    
+   
+  
+}*/
+.hero-question{
+     font-family: 'Fjalla One', sans-serif;
+     font-size:60px;
+     color:#fff;
+}
+#top-half{
+    background:rgba(0,0,0,.3);
+    height: 50%;
+    
+}
+#bottom-half{
+    background:rgba(255,0,0,.3);
+    height: 50%;
+    
+}
+#hero-heading-1{
+    text-align: center;
+    display:inline-block;
+    position: absolute;
+    top:50px;
+}
+/*
+#hero-heading-2{
+    margin-left: 20%
+}*/
+#hero-spots{
+    position: relative; 
+    top:36%;
+    background-image: url(../img/window-spots.png);
+    width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 40%;
+    display: inline-block;
+    z-index: 0;
+}
+#hero-heading-3{
+   
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    right: 230px;
+    top: 230px;
+   
+}
+
+#hero-img{
+    background-image: url("../img/blue-ws.jpg");
+    width:175px;
+    height:175px;
+    position: absolute;
+    right:10px;
+    border-radius: 40%;
+    margin:0 15px;
+    display: inline-block;
+   
+}
+/*END HERO*/
+/*TESTIMONIALS*/
+.testiimonial{
+    width:100%;
+    position:relative;
+    top:10px;
+    
+}
+.test{
+    margin: 0 1% ;
+    background-color:rgba(0,0,0,.2);
+    width:30%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    min-height: 170px;
+    border-style: groove;
+    border-width: 5px;
+    font-family: 'Playfair Display', serif;
+}
+/*TESTIMONIALS*/
+/*footer*/
+footer{
+    background-color: #7b9ccf;
+    color: #000;
+    height:150px;
+    width:100%;
+    clear:both;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 15;
+     
+
+}
+
+.fa{
+    font-size: 40px;
+}
+
+footer a, footer a:hover, footer a:visited{
+    color: #fff;
+}
+#social-media {
+    text-align: center;
+    margin-top: 10px;
+}
+#social-media a{
+    text-align: center;
+    
+    padding:0 30px 0 30px;
+    
+  
+}
+#contact-info{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#contact-info p{
+   display: inline-block;
+   
+   
+}
+#copyright{
+    text-align:center;
+    margin-top: 10px;
+     font-family: 'Playfair Display', serif;
+}

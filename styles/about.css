@@ -1,0 +1,53 @@
+#small-hero{
+    background-image: url("../img/hero-img-4.png");
+    height: 40px;
+    width: 100%;
+    position:relative;
+    top:150px;
+}
+#generations{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+}
+aside{
+    width:25%;
+    height:100%;
+    float: left;
+    position: relative;
+    top:150px;
+   
+    
+    
+}
+.family{
+    width: 150px;
+    height:150px;
+   /*margin-top: 15px;*/
+    background-size: contain;
+    background-position: center;
+    margin:15px auto 0 auto;
+    
+    
+}
+#past{
+    background-image: url("../img/past.png");
+}
+#present{
+    background-image: url("../img/present.png");
+    
+}
+#future{
+    background-image: url("../img/chloe.png");
+}
+
+#main-content{
+    height: 700px;
+    width:75%;
+    position: relative;
+    top:150px;
+    font-family: 'Playfair Display', serif;
+    float:right;
+    
+}
